@@ -1,0 +1,100 @@
+.w,.create-state { 	
+	min-width: 150px;
+	padding:16px;
+	position:absolute;
+	z-index:4;
+	border:1px solid #2e6f9a;
+	box-shadow: 2px 2px 19px #e0e0e0;
+	-o-box-shadow: 2px 2px 19px #e0e0e0;
+	-webkit-box-shadow: 2px 2px 19px #e0e0e0;
+	-moz-box-shadow: 2px 2px 19px #e0e0e0;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	cursor:move;
+	background-color:white;
+	font-size:11px;
+	-webkit-transition:background-color 0.25s ease-in;
+	-moz-transition:background-color 0.25s ease-in;
+	transition:background-color 0.25s ease-in;	
+	text-align: center;
+}
+
+.w:hover, .create-state:hover {
+	background-color: #6699FF;
+	color:white;
+}
+
+.create-state {
+	min-width: auto;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	border:2px solid #2e6f9a;
+	cursor: pointer;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	font-size: 14px;
+	margin: 0 50px 50px 0;
+}
+
+.aLabel {
+	-webkit-transition:background-color 0.25s ease-in;
+	-moz-transition:background-color 0.25s ease-in;
+	transition:background-color 0.25s ease-in;
+}
+
+.aLabel._jsPlumb_hover, ._jsPlumb_source_hover, ._jsPlumb_target_hover {
+	background-color:#6699FF;
+	color:white;
+}
+
+.aLabel {
+	background-color:white;
+	opacity:0.8;
+	padding:0.3em;				
+	border-radius:0.5em;
+	border:1px solid #bbb;
+	cursor:pointer;
+}
+
+.ep {
+	position:absolute;
+	bottom: 37%;
+	right: 5px;
+	width:1em;
+	height:1em;
+	background-color:#bbb;
+	cursor:pointer;
+	box-shadow: 0px 0px 2px black;
+	-webkit-transition:-webkit-box-shadow 0.25s ease-in;
+	-moz-transition:-moz-box-shadow 0.25s ease-in;
+	transition:box-shadow 0.25s ease-in;
+}
+
+.ep:hover {
+	box-shadow: 0px 0px 6px black;
+}
+
+._jsPlumb_endpoint {
+	z-index:3;
+}
+
+.dragHover { 
+	border:2px solid #bbb; 
+}
+
+path { 
+	cursor:pointer; 
+}
+
+/** Remove all the trasition labels **/
+.aLabel {
+	display: none;
+}
+
+/** Z-INDEX **/
+._jsPlumb_connector { z-index:18 !important; }
+._jsPlumb_endpoint { z-index:19 !important; }
+._jsPlumb_overlay { z-index:20 !important; }

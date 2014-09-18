@@ -1,0 +1,64 @@
+/* Custom styling */
+body {
+	font: 14px normal Helvetica, Arial, Helvetica, sans-serif;
+	color: #393939;
+}
+
+header, h3 {
+	font-size: 18px;
+	margin: 20px;
+}
+
+p {
+	margin: 20px;
+	color: #999;
+}
+
+#container .list {
+	margin: 10px;
+	padding: 10px;
+}
+
+#container .list a {
+	color: #666;
+	font: 14px normal Helvetica, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+#container .list a:hover {
+	color: #000;
+}
+
+.workflow-info {
+	margin: 10px;
+}
+
+#new {
+	left:500px;
+	top:100px;
+}
+
+#open {
+	left:500px;
+	top:200px;
+}
+
+#in-progress {
+	left:250px;
+	top:400px;
+}
+
+#resolved {
+	left:500px;
+	top:300px;
+}
+
+#reopened {
+	left:500px;
+	top:500px;
+}
+
+#closed {
+	left:750px;
+	top:400px;
+}
