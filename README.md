@@ -2,16 +2,6 @@ jsWorkflow - An open source JavaScript based API to manage workflow diagrams in 
 
 ---------------------------------------------------------------------------------------------------------
 
-jsWorkflow 1.0
-
-Copyright (c) 2014 Hemanatha Shetty (hemantsshetty@gmail.com)
-
-http://github.com/hemantsshetty/jsWorkflow
-
-Licensed under the MIT
-
----------------------------------------------------------------------------------------------------------
-
 A Workflow Diagram is a simple form of Flowchart depicting the flow (tansition) of tasks or actions from one state to another. 
 
 Workflow is an important part of many application such as The issue tracking system.
@@ -103,3 +93,13 @@ A sample JSON Workflow object
 	  },
 	  "container": "workflow-2"
 	}
+	
+---------------------------------------------------------------------------------------------------------
+
+jsWorkflow 1.0
+
+Copyright (c) 2014 Hemanatha Shetty (hemantsshetty@gmail.com)
+
+http://github.com/hemantsshetty/jsWorkflow
+
+Licensed under the MIT
