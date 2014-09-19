@@ -23,6 +23,17 @@ jsWorkflow uses jsPlumb to create and maintain workflow diagrams.
 jsWorkflow is an abstract layer built on top of jsPlumb to manage workflow diagrams using few simple jsWorkflow methods.
 
 ---------------------------------------------------------------------------------------------------------
+Screenshots
+
+![alt tag](https://raw.githubusercontent.com/hemantsshetty/jsWorkflow/c4b589d8a2491139e319f1de08c1d854a0abf73c/screenshot/jsWorkflow1.png)
+
+![alt tag](https://raw.githubusercontent.com/hemantsshetty/jsWorkflow/c4b589d8a2491139e319f1de08c1d854a0abf73c/screenshot/jsWorkflow2.png)
+
+![alt tag](https://raw.githubusercontent.com/hemantsshetty/jsWorkflow/c4b589d8a2491139e319f1de08c1d854a0abf73c/screenshot/jsWorkflow3.png)
+
+![alt tag](https://raw.githubusercontent.com/hemantsshetty/jsWorkflow/c4b589d8a2491139e319f1de08c1d854a0abf73c/screenshot/jsWorkflow4.png)
+
+---------------------------------------------------------------------------------------------------------
 
 A list of jsWorkflow methods:
 
